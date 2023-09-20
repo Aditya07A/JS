@@ -7,7 +7,7 @@ const all = marvel.concat(dcComic);// concat will give array
 //console.log(all);
 
 const allHeroes = [...marvel,...dcComic];
-//console.log(allHeroes);
+//console.log(allHeroes);) // ['thor', 'ironman', 'spiderman', 'batman', 'superman', 'flash']
 
 const newArr = [1,2,3,[4,5,6,[7,8,[9]]]]
 const combArr = newArr.flat(Infinity)//[1,2,3,4,5,6,7,8,9]

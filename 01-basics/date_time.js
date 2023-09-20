@@ -3,7 +3,7 @@ const date = new Date();
 // console.log(typeof date);//object
 // console.log(date);//2023-09-05T12:37:09.456Z
 // console.log(date.toString());//coordinated universal time &time GMT-Tue Sep 05 2023 12:37:09 GMT+0000 
-// console.log(date.toDateString());//dat month day year-Tue Sep 05 2023
+// console.log(date.toDateString());// month day year-Tue Sep 05 2023
 // console.log(date.toISOString());//yyy-month-date time-2023-09-05T12:37:09.456Z
 // console.log(date.toLocaleDateString());//mm/day/yyyy-9/5/2023
 // console.log(date.toJSON());//mm/day/yyyy-2023-09-05T12:37:09.456Z

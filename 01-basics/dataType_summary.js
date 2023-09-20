@@ -19,8 +19,8 @@ console.log(id1 ==== id2);//will get false
 type of null = object 
 type of bigInt = undefined
 ---------------------------------------------------------------------
-stack memory used in primitive 
-heap used in non-primitive
+=> stack memory used in primitive 
+=> heap used in non-primitive
  
 */
 let name1 = "abcd";

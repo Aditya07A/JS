@@ -8,7 +8,7 @@ const arr2 = new Array(6,7,8,9)
 // console.log(arr2);
 
 //array methods:
-const myArr = [0,1,2,3,4];
+// const myArr = [0,1,2,3,4];
 // myArr.push(5,6,7);// add element at end
 // console.log(myArr);
 // myArr.pop()//remove element from last
@@ -28,6 +28,7 @@ const myArr = [0,1,2,3,4];
 // console.log(typeof newArr);
 
 //slice ,,,splice
+const myArr = [0,1,2,3,4];
 console.log("A:-",myArr);
 const myN1 = myArr.slice(1,3); // includes index number ( 1 & 2) but not (3)
 console.log(myN1);//[ 1, 2 ]  original array is not-changed

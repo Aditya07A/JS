@@ -28,13 +28,13 @@ const newString4 = gameName2.slice(-8,4)
 
 const newString1 = "   Aditya   ";
 // console.log(newString1);
-// console.log(newString1.trim());
-// console.log(newString1.trimStart());
-// console.log(newString1.trimEnd());
+// console.log(newString1.trim());remove spaces both sides
+// console.log(newString1.trimStart());remove spaces from start
+// console.log(newString1.trimEnd());remove spaces end
 
 const url = "http://aditya.com/aditya%20adiraju";
 console.log(url.replace("%20","-"));
 console.log(url.includes('qwerty'));
 
 const gName = new String("qwerty-uiop");
-console.log(gName.split("-"));
+console.log(gName.split("-"));// print  ['qwerty', 'uiop'] seperate the words
